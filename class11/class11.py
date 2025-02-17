@@ -3,21 +3,21 @@
 # Useful for storing data permantly unlike variables (stored in RAM)
 # Real life examples are.. highsores in games, login details, data storage, configuargation files
 
-# file = open("example.txt", "r") # Open the file in read mode
-# content = file.read() # Reads the entire File
-# print(content)
-# file.close() # Always close the file after reading
+file = open("example.txt", "r") # Open the file in read mode
+content = file.read() # Reads the entire File
+print(content)
+file.close() # Always close the file after reading
 
 
-# file = open("example.txt", "w")
-# file.write("Hi I am overwriting the file")
-# # write is used to write
-# file.close()
+file = open("example.txt", "w")
+file.write("Hi I am overwriting the file")
+# write is used to write
+file.close()
 
-# file = open("example.txt", "a")
-# file.write("\nHi I am appending the file")
-# # write is used to write
-# file.close()
+file = open("example.txt", "a")
+file.write("\nHi I am appending the file")
+# write is used to write
+file.close()
 
 # with open("example.txt" , "r") as file:
 #     content = file.read()
